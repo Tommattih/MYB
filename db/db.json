@@ -1,0 +1,150 @@
+{
+  "ingredientes": {
+    "paes": [
+      {
+        "id": 1,
+        "tipo": "3 Queijos"
+      },
+      {
+        "id": 2,
+        "tipo": "Integral"
+      },
+      {
+        "id": 3,
+        "tipo": "Italiano Branco"
+      },
+      {
+        "id": 4,
+        "tipo": "Parmesão e Orégano"
+      }
+    ],
+    "carnes": [
+      {
+        "id": 1,
+        "tipo": "Frango"
+      },
+      {
+        "id": 2,
+        "tipo": "Pernil"
+      },
+      {
+        "id": 3,
+        "tipo": "Picanha"
+      },
+      {
+        "id": 4,
+        "tipo": "Veggie burger"
+      }
+    ],
+    "opcionais": [
+      {
+        "id": 1,
+        "tipo": "Bacon"
+      },
+      {
+        "id": 2,
+        "tipo": "Cheddar"
+      },
+      {
+        "id": 3,
+        "tipo": "Salame"
+      },
+      {
+        "id": 4,
+        "tipo": "Tomate"
+      },
+      {
+        "id": 4,
+        "tipo": "Cebola roxa"
+      },
+      {
+        "id": 4,
+        "tipo": "Pepino"
+      }
+    ]
+  },
+  "status": [
+    {
+      "id": 1,
+      "tipo": "Solicitado"
+    },
+    {
+      "id": 2,
+      "tipo": "Em produção"
+    },
+    {
+      "id": 3,
+      "tipo": "Finalizado"
+    }
+  ],
+  "burgers": [
+    {
+      "name": "Mateus",
+      "meat": "Pernil",
+      "bread": "Italiano Branco",
+      "options": [
+        "Tomate",
+        "Cheddar",
+        "Cebola roxa"
+      ],
+      "status": "Solicitado",
+      "id": 1
+    },
+    {
+      "name": "Tetê",
+      "meat": "Frango",
+      "bread": "Integral",
+      "options": [
+        "Tomate",
+        "Pepino"
+      ],
+      "status": "Solicitado",
+      "id": 3
+    },
+    {
+      "name": "Felps",
+      "meat": "Frango",
+      "bread": "Parmesão e Orégano",
+      "options": [
+        "Bacon",
+        "Cebola roxa",
+        "Cheddar",
+        "Tomate"
+      ],
+      "status": "Em produção",
+      "id": 6
+    },
+    {
+      "name": "Juquinha da Silva",
+      "meat": "Pernil",
+      "bread": "Italiano Branco",
+      "options": [
+        "Bacon",
+        "Cheddar"
+      ],
+      "status": "Em produção",
+      "id": 7
+    },
+    {
+      "name": "ze henrique",
+      "meat": "Picanha",
+      "bread": "3 Queijos",
+      "options": [
+        "Tomate",
+        "Cebola roxa"
+      ],
+      "status": "Em produção",
+      "id": 8
+    },
+    {
+      "name": "tommattih",
+      "meat": "Veggie burger",
+      "bread": "3 Queijos",
+      "options": [
+        "Cheddar"
+      ],
+      "status": "Finalizado",
+      "id": 9
+    }
+  ]
+}
